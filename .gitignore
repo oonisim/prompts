@@ -1,0 +1,13 @@
+# Editor project settings
+.idea/
+*.iml
+.vscode/
+
+# macOS metadata
+.DS_Store
+._*
+
+# Editor temporary files
+*~
+*.swp
+*.swo
