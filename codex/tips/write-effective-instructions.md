@@ -18,13 +18,13 @@ authoritative information. AI must not invent either.**
 
 Define the result and boundaries clearly, then give Codex room to complete the work.
 
-## Put instructions in the right place
+### Put instructions in the right place
 
 - **Task prompt:** the outcome, inputs, constraints, and completion checks for one request.
 - **AGENTS.md:** standing project rules, conventions, and required checks.
 - **SKILL.md:** instructions for a skill, a reusable workflow used for matching requests.
 
-## Seven general tips
+### Seven general tips
 
 These principles apply to all four use cases below.
 
@@ -32,13 +32,14 @@ These principles apply to all four use cases below.
 2. **Give relevant context.** Supply the facts, source material, and constraints needed for the
    work.
 3. **Set boundaries.** Say what must remain unchanged and which decisions require your input.
-4. **Use precise language.** Define necessary terms and resolve conflicting or ambiguous directions.
+4. **Use precise language.** Define necessary terms. Have the source owner clarify conflicting or
+   ambiguous requirements before AI applies them.
 5. **Keep guidance focused.** Include requirements that affect the result; remove unrelated detail.
 6. **Check what matters.** Specify how to judge correctness, completeness, and suitability.
 7. **Improve from evidence.** Revise instructions when a concrete problem appears, then check
    whether the change helps without losing useful safeguards.
 
-## Optimize for Use Cases
+## Optimize for use cases
 
 These four practical categories help you choose what to emphasize. They can overlap.
 
@@ -81,6 +82,19 @@ The use-case categories organize this page; they are not a formal product classi
 The specific tips also draw on OpenAI's [project instructions][agents] and
 [skill authoring][skills] guidance. These recommendations are not measured performance guarantees.
 
+Further checks against official guidance support clear instructions, relevant context, and testing
+against defined success criteria:
+
+- [OpenAI: Skills, project instructions, and task boundaries][openai-review].
+- [Anthropic: Define success criteria and evaluate results][evaluations].
+- [Google: Clear instructions, context, and iterative prompt improvement][google].
+
+The source-owner responsibility boundary is this guide's policy, not a universal vendor rule.
+Alignment with these references does not establish measured effectiveness for every task or model.
+
+[openai-review]: https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+[evaluations]: https://platform.claude.com/docs/en/test-and-evaluate/develop-tests
+[google]: https://ai.google.dev/gemini-api/docs/prompting-strategies
 [prompting]: https://learn.chatgpt.com/docs/prompting
 [agents]: https://learn.chatgpt.com/docs/agent-configuration/agents-md
 [skills]: https://learn.chatgpt.com/docs/build-skills
