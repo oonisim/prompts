@@ -1,5 +1,8 @@
 # Write effective prompt
 
+Effective prompts define the intended result, provide relevant information,
+and establish necessary boundaries while allowing AI to determine how to
+complete the task.
 ## Principles
 
 Source owners are responsible for clarifying intended meaning and supplying
@@ -30,8 +33,6 @@ The following principles guide the interaction between source owners and AI:
 
 ### General guidelines
 
-These guidelines apply to all four use cases below.
-
 1. **Definition of done**: State the required result and acceptance criteria:
    how its correctness, completeness, and suitability will be checked.
 2. **Context**: Provide relevant context to help the AI understand the situation.
@@ -44,6 +45,7 @@ These guidelines apply to all four use cases below.
 ## Optimize for use cases
 
 These four practical categories help you choose what to emphasize. They may overlap.
+Apply the general guidelines where relevant to each use case.
 
 AI uses tools to perform work. A skill defines a reusable procedure.
 
