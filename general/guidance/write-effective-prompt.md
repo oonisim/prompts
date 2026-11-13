@@ -28,14 +28,14 @@ Define the result and boundaries clearly, then give the AI room to complete the 
 
 These guidelines apply to all four use cases below.
 
-1. **Definition of done** 
+1. **Definition of done**: 
    State the acceptance criteria of what a successful result should provide.
-2. **Context** Provide relevant context to help the AI understand the situation.
-3. **Focus** State only what affects the correct result; remove unrelated information.
-4. **Precise language** Define necessary terms. Have only the facts that the source owner confirmed.
-5. **Criteria** Specify how to judge correctness, completeness, and suitability.
-6. **Demarcation** State what AI cannot decide, execute, or use.
-7. **Adaptation** Revise instructions when a concrete problem appears, then checkk
+2. **Context**: Provide relevant context to help the AI understand the situation.
+3. **Focus**: State only what affects the correct result; remove unrelated information.
+4. **Precise language**: Define necessary terms. Have only the facts that the source owner confirmed.
+5. **Criteria**: Specify how to judge correctness, completeness, and suitability.
+6. **Demarcation**: State what AI cannot decide, execute, or use.
+7. **Adaptation** Revise instructions when a concrete problem appears, then check
    whether the change helps without losing useful safeguards.
 
 ## Optimize for use cases
