@@ -2,41 +2,44 @@
 
 ## Principles
 
-**Source owners are responsible for clarifying intended meaning and supplying complete,
-authoritative information. AI must not invent but request clarification or correction.** 
+Source owners are responsible for clarifying intended meaning and supplying
+authoritative information.
+
+AI can independently obtain and verify facts, but must not invent information
+nor resolve material ambiguities in the owner's intended meaning.
+Instead, must request clarification or correction when needed.
+
 The following principles guide the interaction between source owners and AI:
 
-- **Semantic fidelity** means the source accurately expresses its owner's intended meaning.
-  AI must not resolve ambiguous or contradictory statements by guessing that intention.
-- **Data sufficiency** means all information needed for the task is available, explicit, and
-  authoritative. AI must not fill missing information with invented facts or unsupported
-  assumptions.
-- **Responsibility boundary.** AI identifies gaps and asks the source authority to clarify
-  or correct them. Apply the confirmed; do not silently interpret or repair the source.
+- **Semantic fidelity** means the source accurately expresses its owner's
+  intended meaning. AI must not resolve ambiguities or contradictions.
+- **Data sufficiency** means information needed for the task is available,
+  explicit, and authoritative. AI must not fill missing information with
+  inventions or unsupported assumptions.
+- **Responsibility boundary.** AI investigates discrepancies and ambiguities
+  and reports what the evidence establishes. Source owners are responsible
+  to clarify or correct.
 
 ## General guidance
 
-Define the result and boundaries clearly, then give the AI room to complete the work.
-
-### Put instructions in the right place
+### Instructions in the right place
 
 - **Task prompt:** the outcome, inputs, constraints, and completion checks for one request.
 - **AGENTS.md:** standing project rules, conventions, and required checks.
 - **SKILL.md:** instructions for a skill, a reusable workflow used for matching requests.
 
-### Seven general guidelines
+### General guidelines
 
 These guidelines apply to all four use cases below.
 
-1. **Definition of done**: 
-   State the acceptance criteria of what a successful result should provide.
+1. **Definition of done**: State the required result and acceptance criteria:
+   how its correctness, completeness, and suitability will be checked.
 2. **Context**: Provide relevant context to help the AI understand the situation.
 3. **Focus**: State only what affects the correct result; remove unrelated information.
-4. **Precise language**: Define necessary terms. Have only the facts that the source owner confirmed.
-5. **Criteria**: Specify how to judge correctness, completeness, and suitability.
-6. **Demarcation**: State what AI cannot decide, execute, or use.
-7. **Adaptation** Revise instructions when a concrete problem appears, then check
-   whether the change helps without losing useful safeguards.
+4. **Precise language**: Define necessary terms and state requirements unambiguously.
+5. **Demarcation**: State what AI cannot decide, execute, or use.
+6. **Adaptation**: Revise instructions when a concrete problem is identified.
+   Verify new instructions address it under the same criteria and constraints.
 
 ## Optimize for use cases
 
