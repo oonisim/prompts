@@ -1,22 +1,22 @@
-# Write effective Codex instructions
+# Write effective prompt
 
 ## Principles
 
 **Source owners are responsible for clarifying intended meaning and supplying complete,
-authoritative information. AI must not invent either.**
+authoritative information. AI must not invent but request clarification or correction.** 
+The following principles guide the interaction between source owners and AI:
 
 - **Semantic fidelity** means the source accurately expresses its owner's intended meaning.
   AI must not resolve ambiguous or contradictory statements by guessing that intention.
 - **Data sufficiency** means all information needed for the task is available, explicit, and
   authoritative. AI must not fill missing information with invented facts or unsupported
   assumptions.
-- **Maintain the responsibility boundary.** AI identifies gaps and asks the source owner to clarify
-  or correct them. Apply the confirmed requirements; do not silently reinterpret or repair the
-  source.
+- **Responsibility boundary.** AI identifies gaps and asks the source authority to clarify
+  or correct them. Apply the confirmed; do not silently interpret or repair the source.
 
 ## General guidance
 
-Define the result and boundaries clearly, then give Codex room to complete the work.
+Define the result and boundaries clearly, then give the AI room to complete the work.
 
 ### Put instructions in the right place
 
@@ -24,26 +24,25 @@ Define the result and boundaries clearly, then give Codex room to complete the w
 - **AGENTS.md:** standing project rules, conventions, and required checks.
 - **SKILL.md:** instructions for a skill, a reusable workflow used for matching requests.
 
-### Seven general tips
+### Seven general guidelines
 
-These principles apply to all four use cases below.
+These guidelines apply to all four use cases below.
 
-1. **Define the result.** State what a successful answer or completed task should provide.
-2. **Give relevant context.** Supply the facts, source material, and constraints needed for the
-   work.
-3. **Set boundaries.** Say what must remain unchanged and which decisions require your input.
-4. **Use precise language.** Define necessary terms. Have the source owner clarify conflicting or
-   ambiguous requirements before AI applies them.
-5. **Keep guidance focused.** Include requirements that affect the result; remove unrelated detail.
-6. **Check what matters.** Specify how to judge correctness, completeness, and suitability.
-7. **Improve from evidence.** Revise instructions when a concrete problem appears, then check
+1. **Definition of done** 
+   State the acceptance criteria of what a successful result should provide.
+2. **Context** Provide relevant context to help the AI understand the situation.
+3. **Focus** State only what affects the correct result; remove unrelated information.
+4. **Precise language** Define necessary terms. Have only the facts that the source owner confirmed.
+5. **Criteria** Specify how to judge correctness, completeness, and suitability.
+6. **Demarcation** State what AI cannot decide, execute, or use.
+7. **Adaptation** Revise instructions when a concrete problem appears, then checkk
    whether the change helps without losing useful safeguards.
 
 ## Optimize for use cases
 
-These four practical categories help you choose what to emphasize. They can overlap.
+These four practical categories help you choose what to emphasize. They may overlap.
 
-An agent uses tools to perform work. A skill defines a reusable procedure.
+AI uses tools to perform work. A skill defines a reusable procedure.
 
 | Category | Use | Emphasize |
 | --- | --- | --- |
@@ -61,6 +60,7 @@ An agent uses tools to perform work. A skill defines a reusable procedure.
 
 - Identify permitted tools and actions, the deliverable, and completion checks.
 - Specify when to continue independently and when a blocked step requires a decision.
+- Specify when to stop, and under what conditions.
 
 ### Standing agent instructions
 

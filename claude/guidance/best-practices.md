@@ -28,5 +28,5 @@ Choose Claude Code controls by purpose. For instruction writing, see [the shared
 
 Source: Anthropic's [maintained best-practices guide][source]. Check installed-version support.
 
-[general]: ../../general/guidance/write-effective-instructions.md
+[general]: ../../general/guidance/write-effective-prompt.md
 [source]: https://code.claude.com/docs/en/best-practices

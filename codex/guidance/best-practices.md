@@ -1,7 +1,7 @@
 # Codex best practices
 
 Use Codex's controls to plan, review, and organize work. For writing instructions, see
-[Write effective instructions](../../general/guidance/write-effective-instructions.md).
+[Write effective instructions](../../general/guidance/write-effective-prompt.md).
 
 ## Before implementation
 
