@@ -3,25 +3,31 @@
 Effective prompts define the intended result, provide relevant information,
 and establish necessary boundaries while allowing AI to determine how to
 complete the task.
+
+## Actors
+
+| Role              | Responsibility                                                                                                                                      |
+|-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Factual Authority | Provides evidence or governing references for establishing facts.                                                                                   |
+| Source Owner      | Provides source material and is accountable for its factual correctness and completeness for the task. Retains authority over its intended meaning. |
+| Task Requester    | Defines the task, required outcome, constraints, authorized actions, and completion checks.                                                         |
+| AI                | Determines how to carry out the authorized task, executes it, and verifies the result against the stated requirements.                              |
+
+
 ## Principles
 
-Source owners are responsible for clarifying intended meaning and supplying
-authoritative information.
+The following principles will guide the interaction between source owners and AI:
 
-AI can independently obtain and verify facts, but must not invent information
-nor resolve material ambiguities in the owner's intended meaning.
-Instead, must request clarification or correction when needed.
-
-The following principles guide the interaction between source owners and AI:
-
-- **Semantic fidelity** means the source accurately expresses its owner's
-  intended meaning. AI must not resolve ambiguities or contradictions.
-- **Data sufficiency** means information needed for the task is available,
-  explicit, and authoritative. AI must not fill missing information with
-  inventions or unsupported assumptions.
-- **Responsibility boundary.** AI investigates discrepancies and ambiguities
-  and reports what the evidence establishes. Source owners are responsible
-  to clarify or correct.
+- **Semantic fidelity** means the source accurately expresses its owner's intended meaning.
+  Decisions about that meaning remain with the source owner.
+  AI is not a semantic fidelity solver, and must not resolve ambiguities or contradictions.
+- **Data sufficiency** means information needed for the task is available, explicit, and
+  authoritative. AI is not a data sufficiency solver and must not fill missing information
+  with inventions or unsupported assumptions.
+- **Responsibility boundary.** AI may investigate discrepancies and ambiguities and verify
+  facts. It must report factual errors supported by evidence and request clarification or
+  correction when necessary. Source owners are responsible for providing authoritative
+  information and clarifying or correcting their material.
 
 ## General guidance
 
